@@ -123,8 +123,7 @@ class _BloodSugarState extends State<BloodSugar> {
                           });
                         },
                         color: selectedMeal == Meal.afterMeal
-                            ? GoogleFonts.montserrat(
-                                textStyle: kNumberTextStyle)
+                            ? kActiveCardColour
                             : CupertinoDynamicColor.resolve(
                                 backGroundColor, context),
                         cardChild: IconFont(
